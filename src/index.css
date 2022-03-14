@@ -1,0 +1,99 @@
+.proImage{
+    display: block;
+    margin: 0 0 0 auto;
+}
+.preview{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    padding: 5px 0 5px 0;
+}
+.status{
+    display: flex;    
+    justify-content: space-between;
+    background: aliceblue;
+    padding: 5px 5px;
+}
+.status h5{
+    margin: 0;
+}
+
+.innerMainDiv{
+    overflow-y: scroll;
+    height: 450px;
+    scrollbar-width: 3px;
+}
+
+.logSignBox{
+    max-width: 700px;
+    margin:  30px auto  0;
+}
+.profilePic{
+    width:50px;
+}
+.taskParentBox .mainBox{
+    padding: 10px;
+    background: beige;
+    color: grey;
+    /* border-radius: 15px; */
+    max-width: 600px;
+    margin: 0 5px 5px 0px;
+}
+.taskParentBox p{
+    font-size:13px;
+    margin: 0 0 5px 0;
+}
+.mainBox h4{
+    font-size: 16px;
+}
+.actions{
+    text-align: end;
+} 
+.bg-green{
+    background-color: rgb(186 252 186) !important;
+}
+.error{
+    color: red;
+}
+.bg-red{
+    background-color: rgb(248 185 185) !important;
+}
+.form,.taskParentBox,.logSignBox{
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.22);
+-moz-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.22);
+box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.22);
+border-radius: 12px;
+}
+.deleteDiv{
+    position: fixed;
+    bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background: aliceblue;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.opacity{
+    opacity: 0;
+}
+.opacity02{
+    opacity: 0.2;
+}
+.deleteDiv i{
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 28px;
+    color: red;
+}
+@media only screen and (max-width:768px){
+    .mainBox h4{
+        font-size: 12px;
+    }
+}
